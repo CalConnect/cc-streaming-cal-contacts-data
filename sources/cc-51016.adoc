@@ -1,0 +1,41 @@
+= Streaming Calendar and Contacts Data
+:docnumber: 51016
+:copyright-year: 2018
+:language: en
+:doctype: standard
+:edition: 1
+:status: working-draft
+:revdate: 2018-08-01
+:published-date: 2018-08-01
+:technical-committee: CALENDAR
+:fullname: Michael Douglass
+:surname: Douglass
+:givenname: Michael
+:affiliation: Spherical Cow Group
+:mn-document-class: cc
+:mn-output-extensions: xml,html,pdf,rxl
+:keywords: icalendar, properties
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-abstract.adoc[]
+
+include::sections/01-intro.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-normative-references.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/04-connections.adoc[]
+
+include::sections/05-icalendar-changes.adoc[]
+
+include::sections/06-discovery.adoc[]
+
+include::sections/07-security.adoc[]
+
+include::sections/08-iana.adoc[]
+
+include::sections/99-acknowledgements.adoc[]

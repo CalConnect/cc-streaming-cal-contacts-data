@@ -1,0 +1,27 @@
+[[introduction]]
+== Introduction
+
+Currently clients or servers maintain a synchronized copy of external data through
+subscriptions and polling or by the use of protocol extensions such as DAV Sync Report.
+
+These methods in essence require polling at more or less regular intervals to detect
+changes. For more timely detection of changes, frequent polling is required. This
+leads to inefficiencies and costs in battery and network usage.
+
+The situation may be improved by the use of push notifications but this adds
+complications to the system.
+
+This specification introduces an approach whereby a clients opens streams and then
+simply writes to or reads from the stream. This is not conceptually a new invention.
+Messaging systems already provide such features. What this specification provides is
+the data structures which can be passed as messages and defines the allowable
+operations.
+
+This specification will provide an approach to implementations using websockets or
+currently existing messaging systems such as JMS.
+
+=== Conventions Used in This Document
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD
+NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to
+be interpreted as described in <<RFC2119>>.

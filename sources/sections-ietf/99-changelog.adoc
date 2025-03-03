@@ -1,0 +1,47 @@
+[appendix]
+== metanorma-extension
+
+=== document history
+
+[source,yaml]
+----
+- date:
+  - type: updated
+    value: 2017-07-28
+  edition: 1
+  contributor:
+  - person:
+      name:
+        abbreviation: MD
+        completename: Michael Douglass
+  amend:
+    - description: |
+        Examples
+
+        More text for extended get. Talk about deletions.
+- date:
+  - type: updated
+    value: 2017-07-17
+  edition: 1
+  contributor:
+  - person:
+      name:
+        abbreviation: MD
+        completename: Michael Douglass
+  amend:
+    - description: |
+        Add text about OPTIONS
+
+        Add text about read/write CalDAV
+- date:
+  - type: created
+    value: 2017-02-15
+  edition: 0
+  contributor:
+  - person:
+      name:
+        abbreviation: MD
+        completename: Michael Douglass
+  amend:
+    - description: First pass
+----
