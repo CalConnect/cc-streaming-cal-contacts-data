@@ -10,7 +10,7 @@ This document is available in its rendered forms here:
 
 == General
 
-This document specifies a model for streaming calendar and contact data. This allows for a more efficient method for synchronizing collections of data and may be used to augment existing protocols such as CalDAV.
+This document specifies the Streaming Calendar and Contacts Data.
 
 The document is published as the following:
 
