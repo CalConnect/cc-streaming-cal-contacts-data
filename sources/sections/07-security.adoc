@@ -1,0 +1,15 @@
+[[security]]
+== Security Considerations
+
+Applications using these properties need to be aware of the risks entailed in using
+the URIs provided as values. See <<RFC3986>> for a discussion of the security
+considerations relating to URIs.
+
+[[privacy]]
+== Privacy Considerations
+
+Properties with a "URI" value type can expose their users to privacy leaks as any
+network access of the URI data can be tracked. Clients SHOULD NOT automatically
+download data referenced by the URI without explicit instruction from users. This
+specification does not introduce any additional privacy concerns beyond those
+described in <<RFC5545>>.

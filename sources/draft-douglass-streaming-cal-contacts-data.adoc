@@ -1,0 +1,44 @@
+= Streaming Calendar and Contacts Data
+:doctype: internet-draft
+:name: draft-douglass-streaming-cal-contacts-data
+:status: standard
+:ipr: trust200902
+:area: Applications
+:intended-series: full-standard
+:workgroup: Calendaring Extensions
+:published-date: 2018-08-01
+:fullname: Michael Douglass
+:lastname: Douglass
+:forename_initials: M.
+:affiliation: Spherical Cow Group
+:address: 226 3rd Street + \
+Troy, NY 12180 + \
+USA
+:email: mdouglass@sphericalcowgroup.com
+:contributor-uri: http://sphericalcowgroup.com
+:updates: IETF RFC 5545
+:mn-document-class: ietf
+:mn-output-extensions: xml,rfc,txt,html,rxl
+:keywords: icalendar, properties
+:local-cache-only:
+:data-uri-image:
+
+include::sections-ietf/00-abstract.adoc[]
+
+include::sections/01-intro.adoc[]
+
+include::sections/04-connections.adoc[]
+
+include::sections/05-icalendar-changes.adoc[]
+
+include::sections/06-discovery.adoc[]
+
+include::sections/07-security.adoc[]
+
+include::sections/08-iana.adoc[]
+
+include::sections/99-acknowledgements.adoc[]
+
+include::sections-ietf/99-changelog.adoc[]
+
+include::sections-ietf/97-references.adoc[]

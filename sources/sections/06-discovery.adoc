@@ -1,0 +1,51 @@
+[[discovery]]
+== Discovering alternative access methods
+
+The advertising of other access points is achieved through the use of the LINK
+header as defined in <<RFC5988>>. New link relation types are defined in this
+specification - each being associated with a protocol or protocol subset.
+
+These LINK headers will be delivered when a client carries out an OPTIONS request
+targeting the URL of the resource.
+
+[[link_relation_subscribe_caldav]]
+=== Link relation subscribe-caldav
+
+This specifies an access point which is a full implementation of caldav but requires
+no authentication. The end point allows the full range of reports as defined by the
+CalDAV specification.
+
+The client MUST follow the specification to determine exactly what operations are
+allowed on the access point - for example to determine if sync-report is supported.
+
+The URL MAY include some form of token to allow write access to the targeted
+collection. The client must check it's permissions to determine whether or not it
+has been granted write access.
+
+[[link_relation_subscribe_caldav_auth]]
+=== Link relation subscribe-caldav-auth
+
+This specifies an access point which is a full implementation of caldav and requires
+authentication. This may allow read-write access to the resource.
+
+The client MUST follow the specification to determine exactly what operations are
+allowed on the access point - for example to determine if sync-report is supported.
+
+[[link_relation_subscribe_webdav_sync]]
+=== Link relation subscribe-webdav-sync
+
+This specifies an access point which supports only webdav sync.
+
+This allows the client to issue a sync-report on the resource to obtain updates.
+
+NOTE: Initial startup may require using ics to populate and obtain initial token.
+
+The client MUST follow that specification.
+
+[[link_relation_subscribe_enhanced_get]]
+=== Link relation subscribe-enhanced-get
+
+This specifies an access point which supports enhanced GET functionality as defined
+in this specification.
+
+The client MUST follow that specification.

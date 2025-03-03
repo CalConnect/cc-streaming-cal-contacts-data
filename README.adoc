@@ -1,22 +1,21 @@
-= CalConnect Standard: (TITLE)
+= CalConnect Standard: Streaming Calendar and Contacts Data
 
-This work item belongs to CalConnect (TCs).
+This work item belongs to CalConnect CALENDAR TC.
 
 image:https://github.com/CalConnect/cc-streaming-cal-contacts-data/workflows/generate/badge.svg["Build Status", link="https://github.com/CalConnect/cc-streaming-cal-contacts-data/actions?workflow=generate"]
 
 This document is available in its rendered forms here:
 
-* https://calconnect.github.io/cc-streaming-cal-contacts-data/[CalConnect: Calendaring and scheduling -- Vocabulary (HTML)]
+* https://calconnect.github.io/cc-streaming-cal-contacts-data/[CalConnect: Streaming Calendar and Contacts Data (HTML)]
 
 == General
 
-This document specifies the (TITLE).
+This document specifies a model for streaming calendar and contact data. This allows for a more efficient method for synchronizing collections of data and may be used to augment existing protocols such as CalDAV.
 
 The document is published as the following:
 
-* CalConnect CC (DOCNUMBER)
-* ISO (DOCNUMBER)
-* IETF draft-cc-streaming-cal-contacts-data
+* CalConnect CC 51016
+* IETF draft-douglass-streaming-cal-contacts-data
 
 
 == Fetching the document
@@ -62,17 +61,6 @@ The generated documents are accessible under `_site/`.
 metanorma site generate --agree-to-terms
 open _site/index.html
 ----
-
-
-// == IETF: Checking against idnits
-
-// https://tools.ietf.org/tools/idnits/[idnits] is the RFC checking tool prior to
-// submissions.
-
-// [source,sh]
-// ----
-// idnits draft-calconnect-vobject-vformat.nits
-// ----
 
 
 == License

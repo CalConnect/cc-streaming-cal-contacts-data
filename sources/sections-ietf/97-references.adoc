@@ -1,0 +1,24 @@
+== References
+
+[bibliography]
+=== Normative References
+
+* [[[RFC2119,IETF RFC 2119]]]
+
+* [[[RFC2434,IETF RFC 2434]]]
+
+* [[[RFC3688,IETF RFC 3688]]]
+
+* [[[RFC3986,IETF RFC 3986]]]
+
+* [[[RFC4589,IETF RFC 4589]]]
+
+* [[[RFC5545,IETF RFC 5545]]]
+
+* [[[RFC5546,IETF RFC 5546]]]
+
+* [[[RFC5988,IETF RFC 5988]]]
+
+* [[[W3C.REC-xml-20060816,W3C XML]]], W3C Recommendation, _Extensible Markup Language (XML) 1.0_, August 2006
+
+* [[[I-D.ietf-calext-extensions,IETF I-D ietf-calext-extensions]]]
