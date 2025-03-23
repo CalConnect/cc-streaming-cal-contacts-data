@@ -25,7 +25,7 @@ USA
 
 include::sections-ietf/00-abstract.adoc[]
 
-include::sections/01-intro.adoc[]
+include::sections-ietf/01-intro.adoc[]
 
 include::sections/04-connections.adoc[]
 

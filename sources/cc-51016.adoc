@@ -28,6 +28,8 @@ include::sections/02-normative-references.adoc[]
 
 include::sections/03-terms.adoc[]
 
+include::sections/03-conventions.adoc[]
+
 include::sections/04-connections.adoc[]
 
 include::sections/05-icalendar-changes.adoc[]
