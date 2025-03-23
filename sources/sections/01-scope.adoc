@@ -1,14 +1,6 @@
 [[scope]]
 == Scope
 
-//This document specifies a model for streaming calendar and contact data to enable
-//efficient synchronization of collections. It defines:
-
-//* A streaming model for calendar and contact data synchronization
-//* Changes to the iCalendar specifications to support streaming operations
-//* Methods for discovering alternative access methods
-//* Security and privacy considerations for streaming data
-//* New link relation types for different access protocols
-
-//This specification is designed to work with existing calendar and contact data formats
-//and protocols, particularly iCalendar and CalDAV.
+This specification defines a model for streaming calendar and contact data. This
+allows for a more efficient method for synchronizing collections of data and may
+be used to augment existing protocols such as CalDAV.

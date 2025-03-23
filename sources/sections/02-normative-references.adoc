@@ -17,6 +17,6 @@
 
 * [[[RFC5988,IETF RFC 5988]]]
 
-* [[[W3C.REC-xml-20060816,W3C XML]]], W3C Recommendation, _Extensible Markup Language (XML) 1.0_, August 2006
+* [[[W3C.REC-xml-20060816,W3C TR XML]]], W3C Recommendation, _Extensible Markup Language (XML) 1.0_, August 2006
 
 * [[[I-D.ietf-calext-extensions,IETF I-D ietf-calext-extensions]]]

@@ -6,21 +6,21 @@
 This specification assumes that there are two virtual streams open for each
 established virtual connection: an output stream and an input stream.
 
-All operations are carried out by either end writing a message on the output stream
-and receiving an acknowledgment on the input stream.
+All operations are carried out by either end writing a message on the output
+stream and receiving an acknowledgment on the input stream.
 
-All messages MUST receive an acknowledgement within the defined timeout period or
-they or their acknowledgement will be assumed to have been lost. The sender will
-need to carry out any appropriate recovery.
+All messages MUST receive an acknowledgement within the defined timeout period
+or they or their acknowledgement will be assumed to have been lost. The sender
+will need to carry out any appropriate recovery.
 
 Each message sent MUST include a unique (within the connection) identifier which
 will be returned in the acknowledgment.
 
 === Virtual Connections
 
-The actual systems on which this is running may have many restrictions. Connections
-may be forcibly shut down after some idle time and there will be the usual issues
-with mobile devices and connectivity.
+The actual systems on which this is running may have many restrictions.
+Connections may be forcibly shut down after some idle time and there will be the
+usual issues with mobile devices and connectivity.
 
 The virtual connection MUST hide these issues from the client. A connection will
 last until one end is deemed to have shut down the connection.
@@ -31,8 +31,8 @@ On subsequent conditional fetches the entity will not be returned.
 
 [example]
 ====
-This is an example of the initial request and response from a server that supports
-the extended GET protocol.
+This is an example of the initial request and response from a server that
+supports the extended GET protocol.
 
 [source%unnumbered]
 ----
@@ -48,7 +48,7 @@ HTTP/1.1 200 OK
 Content-Length: xxxx
 ETag: "1234"                    current ETag (for conditional GET)
 Vary: Prefer, If-None-Match            so caching proxy can key off of client's ETag (sync token) and preference
- 
+
 BEGIN:VCALENDAR:
 ...  /* full feed */
 END:VCALENDAR
@@ -58,8 +58,8 @@ END:VCALENDAR
 [example]
 ====
 This is an example of the subsequent request and response when no changes have
-occurred. The Accept header field indicates that a VPATCH format is most desirable
-but simple text/calendar is acceptable.
+occurred. The Accept header field indicates that a VPATCH format is most
+desirable but simple text/calendar is acceptable.
 
 [source%unnumbered]
 ----
@@ -82,8 +82,8 @@ Vary: Prefer, If-None-Match
 
 [example]
 ====
-This is an example of the subsequent request and response when changes have occurred
-and the server can create the minimal format.
+This is an example of the subsequent request and response when changes have
+occurred and the server can create the minimal format.
 
 [source%unnumbered]
 ----
@@ -113,9 +113,9 @@ END:VCALENDAR
 
 [example]
 ====
-This is an example of the subsequent request and response when changes have occurred
-and the server cannot create the minimal format - perhaps because of an old or
-invalid token. Note there is no Preference-Applied header field.
+This is an example of the subsequent request and response when changes have
+occurred and the server cannot create the minimal format - perhaps because of an
+old or invalid token. Note there is no Preference-Applied header field.
 
 [source%unnumbered]
 ----

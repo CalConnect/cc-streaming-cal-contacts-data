@@ -2,11 +2,11 @@
 == Abstract
 
 This specification defines a model for streaming calendar and contact data. This
-allows for a more efficient method for synchronizing collections of data and may be
-used to augment existing protocols such as CalDAV.
+allows for a more efficient method for synchronizing collections of data and may
+be used to augment existing protocols such as CalDAV.
 
 [NOTE,title=Open Issues]
 ====
-* restype values: Need to determine what if any registry of resource types already
-exists and use that.
+* restype values: Need to determine what if any registry of resource types
+already exists and use that.
 ====

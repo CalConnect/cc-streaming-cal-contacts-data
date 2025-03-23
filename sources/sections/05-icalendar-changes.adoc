@@ -2,32 +2,32 @@
 == Changes to the iCalendar specifications
 
 This specification updates <<RFC5545>> to add the value DELETED to the STATUS
-property. It also introduces the use of some properties to provide more information
-about the resource, for example the time range it covers.
+property. It also introduces the use of some properties to provide more
+information about the resource, for example the time range it covers.
 
 === Redefined Status property
 
 Property name:: STATUS
 
-Purpose:: This property defines the overall status or confirmation for the calendar
-component.
+Purpose:: This property defines the overall status or confirmation for the
+calendar component.
 
 Value Type:: TEXT
 
-Property Parameters:: IANA and non-standard property parameters can be specified on
-this property.
+Property Parameters:: IANA and non-standard property parameters can be specified
+on this property.
 
 Conformance:: This property can be specified once in "VEVENT", "VTODO", or
 "VJOURNAL" calendar components.
 
-Description:: In a group-scheduled calendar component, the property is used by the
-"Organizer" to provide a confirmation of the event to the "Attendees". For example
-in a "VEVENT" calendar component, the "Organizer" can indicate that a meeting is
-tentative, confirmed, cancelled, or deleted. In a "VTODO" calendar component, the
-"Organizer" can indicate that an action item needs action, is completed, is in
-process or being worked on, has been cancelled, or has been deleted. In a "VJOURNAL"
-calendar component, the "Organizer" can indicate that a journal entry is draft,
-final, cancelled, or deleted.
+Description:: In a group-scheduled calendar component, the property is used by
+the "Organizer" to provide a confirmation of the event to the "Attendees". For
+example in a "VEVENT" calendar component, the "Organizer" can indicate that a
+meeting is tentative, confirmed, cancelled, or deleted. In a "VTODO" calendar
+component, the "Organizer" can indicate that an action item needs action, is
+completed, is in process or being worked on, has been cancelled, or has been
+deleted. In a "VJOURNAL" calendar component, the "Organizer" can indicate that a
+journal entry is draft, final, cancelled, or deleted.
 
 Format Definition:: This property is defined by the following notation:
 +
