@@ -1,3 +1,5 @@
+# metanorma.release.yml — cc-streaming-cal-contacts-data
+
 documents:
-  - source: sources/cc-51016.adoc
-  - source: sources/draft-douglass-streaming-cal-contacts-data.adoc
+  - pattern: "cc-*"
+    channels: [public/standards]
