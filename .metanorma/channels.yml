@@ -1,5 +1,0 @@
-# .metanorma/channels.yml — cc-streaming-cal-contacts-data
-
-channels:
-  - name: public/standards
-    description: "CalConnect documents from cc-streaming-cal-contacts-data"
